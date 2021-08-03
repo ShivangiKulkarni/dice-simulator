@@ -1,0 +1,30 @@
+# Dice Simulator program
+
+import random
+
+again = True
+
+while again:
+    print(random.randint(1,6))
+    another_roll = input("want to roll the dice again?(y/n):")
+    if another_roll.lower() == "y":
+        continue
+    else:
+        break
+    
+
+#Output:-
+5
+want to roll the dice again?(y/n):y
+1
+want to roll the dice again?(y/n):y
+4
+want to roll the dice again?(y/n):y
+4
+want to roll the dice again?(y/n):y
+2
+want to roll the dice again?(y/n):y
+5
+want to roll the dice again?(y/n):y
+4
+want to roll the dice again?(y/n):n
